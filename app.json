@@ -52,9 +52,7 @@
 
     "scripts": {
       "postdeploy": "nohup flask run &"
-        "postdeploy": [
-            "heroku ps:scale web=1"
-        ]
+       
     },
     "success_url": "/"
 }
