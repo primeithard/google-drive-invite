@@ -50,9 +50,5 @@
         }
     },
 
-    "scripts": {
-      "postdeploy": "nohup flask run &"
-       
-    },
     "success_url": "/"
 }
