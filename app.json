@@ -50,7 +50,6 @@
         }
     },
     "scripts": {
-        "postdeploy": "nohup flask run &",
         "postdeploy": [
             "ps:scale web=1"
         ]
