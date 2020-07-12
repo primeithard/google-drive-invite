@@ -50,7 +50,7 @@
         }
     },
     "scripts": {
-    "postdeploy": "heroku ps:scale web=1"    
+    "postdeploy": "bash heroku ps:scale web=1"    
     },
     "success_url": "/"
 }
