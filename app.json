@@ -50,7 +50,7 @@
         }
     },
     "scripts": {
-    "postdeploy": "bash heroku ps:scale web=1"    
+    "postdeploy": "nohup flask run &"    
     },
     "success_url": "/"
 }
