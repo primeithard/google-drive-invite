@@ -51,7 +51,7 @@
     },
     "scripts": {
         "postdeploy": [
-            "ps:scale web=1"
+            "scale web=1"
         ]
     },
     "success_url": "/"
