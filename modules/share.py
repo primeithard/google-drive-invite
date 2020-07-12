@@ -31,7 +31,7 @@ def get_token():
         "Content-Type": "application/x-www-form-urlencoded"
     }
 
-    REFRESH_TOKEN_URL = "https://www.googleapis.com/oauth2/v4/token?" \
+    REFRESH_TOKEN_URL = "https://www.googleapis.com/oauth2/v4/token" \
             + "client_id=" + os.environ['client_id'] \
             + "&client_secret=" + os.environ['client_secret'] \
             + "&refresh_token=" + os.environ['refresh_token'] \
