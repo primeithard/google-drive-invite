@@ -50,9 +50,7 @@
         }
     },
     "scripts": {
-        "postdeploy": [
-            "scale web=1"
-        ]
+    "postdeploy": "heroku ps:scale web=1"    
     },
     "success_url": "/"
 }
